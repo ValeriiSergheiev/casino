@@ -68,4 +68,50 @@
 .main-home {
 	padding: 60px 0 80px;
 }
+
+.top-games-section {
+	margin-top: 45px;
+}
+
+.top-game-item {
+	float: left;
+	width: calc(165px + 8px + 2px);
+	margin-right: calc((100% - 175px * 5) / 4) ;
+	display: block;
+	&:last-child {
+		margin-right: 0;
+	}
+	&:hover {
+		opacity: .8;
+	}
+}
+
+.top-game-img {
+	display: block;
+	border: 1px solid #9e4fff;
+	border-radius: 4px;
+	background-color: #3e2d52;
+	overflow: hidden;
+	img {
+		display: block;
+		border: 2px solid #000;
+		width: 165px;
+		height: 105px;
+		margin: 4px;
+	}
+}
+
+.top-game-text {
+	display: block;
+	margin-top: 6px;
+	font-family: 'OpenSansSemibold';
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #480076;
+	border-radius: 4px;
+	padding: 4px;
+	background: linear-gradient(#a72efc, #741ebd);
+	min-height: 50px;
+}
 /*  END HOME PAGE */

@@ -16,6 +16,15 @@
     		text-align: center;
     	}
 
+    	.top-game-item {
+    		margin-bottom: 10px;
+    		margin-top: 10px;
+    		margin-right: calc((100% - 175px * 3) / 2);
+    		&:nth-child(3n) {
+    			margin-right: 0;
+    		}
+    	}
+
     }
 
     /* Small Devices, Tablets */
@@ -46,6 +55,15 @@
     				display: none;
     			}
     		}
+    	}
+
+    	.top-games-section {
+    		margin-top: 20px;
+    	}
+
+    	.top-game-item {
+    		float: none;
+    		margin: 30px auto 0 !important;
     	}
 
     }
