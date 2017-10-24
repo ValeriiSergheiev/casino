@@ -1,0 +1,10 @@
+@mixin common-btn ($top-color, $bottom-color, $border-color) {
+	display: inline-block;
+	background: linear-gradient($top-color, $bottom-color);
+	border-radius: 4px;
+	border: 1px solid $border-color;
+	text-transform: uppercase;
+	&:hover {
+		background: linear-gradient($bottom-color, $top-color);
+	}
+}
