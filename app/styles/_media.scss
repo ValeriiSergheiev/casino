@@ -3,6 +3,37 @@
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 
+    	.casino-item-left {
+    		float: none;
+    		width: 100%;
+    		border-right: none;
+    		margin-top: 20px;
+    	}
+
+    	.casino-item-right {
+    		float: none;
+    		width: 100%;
+    		margin-top: 20px;
+    		padding-top: 10px;
+    		border-top: 1px solid #554077;
+    	}
+
+    	.casino-image-score {
+    		float: none;
+    		width: 100%;
+    	}
+
+    	.casino-desc-cards {
+    		float: none;
+    		width: 100%;
+    		margin-top: 30px;
+    		text-align: center;
+    	}
+
+    	.casino-item-image {
+    		margin: 0 auto;
+    	}
+
     }
 
     /* Medium Devices, Desktops */
