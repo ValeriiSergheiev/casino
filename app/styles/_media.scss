@@ -75,6 +75,23 @@
     		}
     	}
 
+    	.casino-full-bonus-item {
+    		img {
+    			margin-right: 20px;
+    		}
+    		h2 {
+    			text-align: left;
+    		}
+    		p {
+    			text-align: left;
+    		}
+    	}
+
+    	.casino-full-bonus-list {
+    		margin-left: 40px;
+    		margin-bottom: 15px;
+    	}
+
     }
 
     /* Small Devices, Tablets */
@@ -120,6 +137,23 @@
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+
+    	.casino-full-bonus-item {
+    		img {
+    			margin-right: 10px;
+    		}
+    		h2 {
+    			text-align: right;
+    			margin-top: 0;
+    		}
+    		p {
+    			text-align: right;
+    		}
+    	}
+
+    	.casino-full-bonus-list {
+    		margin-left: 10px;
+    	}
 
     }
 
