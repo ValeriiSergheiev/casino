@@ -37,4 +37,7 @@ $(document).ready(function() {
 	  ]
 	});
 
+	//Nice select
+	$('.custom-select').niceSelect();
+
 });

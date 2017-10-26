@@ -148,5 +148,15 @@
 	.table-responsive {
 		border: none;
 	}
+	.table-striped > tbody > tr:nth-of-type(odd) {
+		background-color: #1e1325;
+	}
+	.table-striped > tbody > tr:nth-of-type(even) {
+		background-color: #271c2e;
+	}
+}
+
+.casino-full-table-link {
+	color: #f5ba5e;
 }
 /* end page casino-full */

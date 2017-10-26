@@ -2,6 +2,7 @@ $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/slick-carousel/slick/slick.scss";
+@import "bower_components/jquery-nice-select/scss/nice-select.scss";
 // endbower
 
 @import "fonts";
@@ -12,5 +13,6 @@ $icon-font-path: '../fonts/';
 @import "header";
 @import "home";
 @import "casino-full";
+@import "category";
 @import "footer";
 @import "media";

@@ -1,0 +1,126 @@
+/* category page */
+.category-filter {
+	padding: 40px 0;
+	border-bottom: 3px solid rgba(0, 0, 0, .3);
+}
+
+.form-select-item {
+	margin-bottom: 35px;
+	h6 {
+		font-size: 16px;
+		color: #fff;
+		font-family: 'OpenSansRegular';
+		margin-bottom: 15px;
+		margin-left: 5px;
+	}
+}
+
+.form-submit {
+	button {
+		width: 180px;
+		padding: 12px 0;
+		font-size: 16px;
+		font-family: 'OpenSansBold';
+		&:first-child {
+			@include common-btn ($top-yellow, $bottom-yellow, #8a4106);
+			text-transform: none;
+			color: #8a4106;
+			text-shadow: 1px 1px 1px #fff;
+			margin-right: 15px;
+		}
+		&:last-child {
+			@include common-btn (#221c2d, #16121e, #16121e);
+			text-transform: none;
+			color: #4e4e4e;
+		}
+	}
+}
+
+.category-list {
+	border-top: 3px solid rgba(78, 78, 78, .1);
+	padding: 40px 0;
+}
+
+.category-item {
+	background-image: url('../images/category/casino-item-bg-290.png');
+	background-repeat: no-repeat;
+	width: 290px;
+	height: 546px;
+	box-shadow: 0px 0px 35px 0px #402664;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	text-align: center;
+	h4 {
+		font-family: 'OpenSansBold';
+		font-size: 23px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.casino-cards-list {
+		text-align: center;
+		margin-top: 20px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #514275;
+		width: 220px;
+		li {
+			margin-right: 0px;
+		}
+	}
+	h2 {
+		font-family: 'OpenSansExtrabold';
+		font-size: 43px;
+		color: #fff;
+		margin-top: 7px;
+	}
+	p {
+		font-family: 'OpenSansSemibold';
+		font-size: 14px;
+		color: #fff;
+	}
+	span {
+		font-family: 'OpenSansSemibold';
+		font-size: 14px;
+		color: #7146d4;
+	}
+	.btn-wrapper {
+		margin-top: 10px;
+		a {
+			display: block;
+			width: 180px;
+			padding: 10px 0;
+			margin: 0 auto;
+			font-size: 16px;
+			font-family: 'OpenSansBold';
+			&:first-child {
+				@include common-btn (#5bb3f0, #0c84be, #4ea5cd);
+				color: #fff;
+				text-shadow: 1px 1px 1px #06517a;
+			}
+			&:last-child {
+				@include common-btn (#ffc300, #ff7600, #8a4106);
+				color: #8a4106;
+				text-shadow: 1px 1px 1px #fff;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+.category-item-img {
+	width: 210px;
+	border: 1px solid rgba(255,255,255, .5);
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: 0px 0px 15px 0px rgba(255,255,255, .5);
+	img {
+		width: 100%;
+	}
+	.casino-item-score-list {
+		background: linear-gradient(#9627b7, #740ac4);
+		margin-top: 0;
+		padding-top: 7px;
+		border-top: 1px solid rgba(255,255,255, .5);
+	}
+}
+/* end category page */

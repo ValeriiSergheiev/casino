@@ -79,19 +79,115 @@
     </header>
 
     <!-- Main section -->
-    <main class="main-casino-full">
-      <div class="container">
+    <main class="main-category">
 
-        <div class="casino-full-content">
-          <section class="casino-full-image">
-            <img src="images/casino-full-image.jpg" class="img-responsive" alt="image">
-          </section>
+      <section class="category-filter">
+        <div class="container">
+          <form id="category-filter-form" class="category-filter-form" action="#">
+            <div class="form-select">
+              <div class="row">
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Движок</h6>
+                  <select class="custom-select">
+                    <option data-display="Playtech">Playtech</option>
+                    <option value="1">Playtech 1</option>
+                    <option value="2">Playtech 2</option>
+                    <option value="3" disabled>Playtech 3</option>
+                    <option value="4">Playtech 4</option>
+                  </select>
+                </div>
 
-          <section class="casino-full-desc">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="casino-full-desc-left">
-                  <img src="images/casino-full-desc.jpg" alt="image">
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Пополнение</h6>
+                  <select class="custom-select">
+                    <option data-display="Mastercard">Mastercard</option>
+                    <option value="1">Mastercard 1</option>
+                    <option value="2">Mastercard 2</option>
+                    <option value="3" disabled>Mastercard 3</option>
+                    <option value="4">Mastercard 4</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Вывод</h6>
+                  <select class="custom-select">
+                    <option data-display="ЯндексДеньги">ЯндексДеньги</option>
+                    <option value="1">ЯндексДеньги 1</option>
+                    <option value="2">ЯндексДеньги 2</option>
+                    <option value="3" disabled>ЯндексДеньги 3</option>
+                    <option value="4">ЯндексДеньги 4</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Валюта</h6>
+                  <select class="custom-select">
+                    <option data-display="Валюта">Валюта</option>
+                    <option value="1">Валюта 1</option>
+                    <option value="2">Валюта 2</option>
+                    <option value="3" disabled>Валюта 3</option>
+                    <option value="4">Валюта 4</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Язык</h6>
+                  <select class="custom-select">
+                    <option data-display="Язык">Язык</option>
+                    <option value="1">Язык 1</option>
+                    <option value="2">Язык 2</option>
+                    <option value="3" disabled>Язык 3</option>
+                    <option value="4">Язык 4</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-4 form-select-item">
+                  <h6>Тип казино</h6>
+                  <select class="custom-select">
+                    <option data-display="InstantPay">InstantPay</option>
+                    <option value="1">InstantPay 1</option>
+                    <option value="2">InstantPay 2</option>
+                    <option value="3" disabled>InstantPay 3</option>
+                    <option value="4">InstantPay 4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-check">
+              <label class="check-item">
+                <input type="checkbox" checked>Cash Back
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" checked>Cash Back
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" checked>Cash Back
+                <span class="checkmark"></span>
+              </label>
+            </div>
+
+            <div class="form-submit">
+              <button form="category-filter-form" type="submit">Отфильтровать</button>
+              <button type="reset">Сбросить</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="category-list">
+        <div class="container">
+          <div class="row">
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
                   <ul class="casino-item-score-list">
                     <li><i class="icon icon-star-active"></i></li>
                     <li><i class="icon icon-star-active"></i></li>
@@ -99,103 +195,182 @@
                     <li><i class="icon icon-star-active"></i></li>
                     <li><i class="icon icon-star-gray"></i></li>
                   </ul>
-                  <p><span>8</span> из <span>10</span></p>
                 </div>
-              </div>
-              <div class="col-md-9">
-                <div class="casino-full-right">
-                  <h3>Joy Casino</h3>
-                  <p>Это онлайн-казино – лицензионный проект с потрясающим интерфейсом, который переведен 14 языков мира, включая русский. В интернет-казино есть возможность игры на игровых автоматах от известнейших производителей (Microgaming, Playson), а также классические – прокер, рулетка блэкджек и т.д.</p>
-                  <ul class="casino-cards-list">
-                    <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
-                    <li><a href="#"><i class="icon icon-mc"></i></a></li>
-                    <li><a href="#"><i class="icon icon-visa"></i></a></li>
-                    <li><a href="#"><i class="icon icon-disc"></i></a></li>
-                    <li><a href="#"><i class="icon icon-electron"></i></a></li>
-                  </ul>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
+                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
                   <a href="#">начать играть</a>
                 </div>
               </div>
             </div>
-          </section>
+            <!-- end casino item -->
 
-          <section class="casino-full-bonus">
-            <div class="row">
-              <div class="col-lg-4 col-md-5 col-sm-12">
-                <div class="casino-full-bonus-item clearfix">
-                  <img src="images/bonus.png" alt="image">
-                  <div>
-                    <h2>забрать бонус</h2>
-                    <p>за регистрацию</p>
-                  </div>     
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
+                  <ul class="casino-item-score-list">
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-gray"></i></li>
+                  </ul>
+                </div>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
+                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
+                  <a href="#">начать играть</a>
                 </div>
               </div>
+            </div>
+            <!-- end casino item -->
 
-              <div class="col-lg-3 col-md-3 col-sm-6">
-                <ul class="casino-full-bonus-list">
-                  <li>удвоенный запас поинтов</li>
-                  <li>фриспины для новичков</li>
-                  <li>бонус на первый депозит</li>
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
+                  <ul class="casino-item-score-list">
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-gray"></i></li>
+                  </ul>
+                </div>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
                 </ul>
-              </div>
-
-              <div class="col-lg-3 col-md-3 col-sm-6">
-                <ul class="casino-full-bonus-list">
-                  <li>удвоенный запас поинтов</li>
-                  <li>фриспины для новичков</li>
-                  <li>бонус на первый депозит</li>
-                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
+                  <a href="#">начать играть</a>
+                </div>
               </div>
             </div>
-          </section>
+            <!-- end casino item -->
 
-          <section class="casino-full-table">
-            <div class="table-responsive">
-              <table class="table table-striped7 table-bordered">
-                <tbody>
-                  <tr>
-                    <td>Official site</td>
-                    <td><a href="#">www.grandcrystalcasino.com</a></td>
-                  </tr>
-                  <tr>
-                    <td>Soft</td>
-                    <td>Playtech</td>
-                  </tr>
-                  <tr>
-                    <td>Time to send money</td>
-                    <td>Electronic wallets: 48 hours credit / debit cards: 3-5 working days.</td>
-                  </tr>
-                  <tr>
-                    <td>Limits on the month</td>
-                    <td>150 000 per day, 1 500 000 per month</td>
-                  </tr>
-                  <tr>
-                    <td>Casino type</td>
-                    <td>Instant Play</td>
-                  </tr>
-                  <tr>
-                    <td>Soft</td>
-                    <td>Playtech</td>
-                  </tr>
-                  <tr>
-                    <td>Time to send money</td>
-                    <td>Electronic wallets: 48 hours credit / debit cards: 3-5 working days.</td>
-                  </tr>
-                  <tr>
-                    <td>Limits on the month</td>
-                    <td>150 000 per day, 1 500 000 per month</td>
-                  </tr>
-                  <tr>
-                    <td>Casino type</td>
-                    <td>Instant Play</td>
-                  </tr>
-                </tbody>
-              </table>
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
+                  <ul class="casino-item-score-list">
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-gray"></i></li>
+                  </ul>
+                </div>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
+                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
+                  <a href="#">начать играть</a>
+                </div>
+              </div>
             </div>
-          </section>
+            <!-- end casino item -->
+
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
+                  <ul class="casino-item-score-list">
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-gray"></i></li>
+                  </ul>
+                </div>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
+                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
+                  <a href="#">начать играть</a>
+                </div>
+              </div>
+            </div>
+            <!-- end casino item -->
+
+            <!-- casino item -->
+            <div class="col-lg-4 col-md-6">
+              <div class="category-item center-block">
+                <h4>«Casino ZigZag777»</h4>
+                <div class="category-item-img center-block">
+                  <img src="images/casino-item.jpg" class="img-responsive" alt="image">
+                  <ul class="casino-item-score-list">
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-active"></i></li>
+                    <li><i class="icon icon-star-gray"></i></li>
+                  </ul>
+                </div>
+                <ul class="casino-cards-list center-block">
+                  <li><a href="#"><i class="icon icon-pay-pal"></i></a></li>
+                  <li><a href="#"><i class="icon icon-mc"></i></a></li>
+                  <li><a href="#"><i class="icon icon-visa"></i></a></li>
+                  <li><a href="#"><i class="icon icon-disc"></i></a></li>
+                </ul>
+                <h2>$10</h2>
+                <p>за регистрацию</p>
+                <span>100% up to $200 + 40FS</span>
+                <div class="btn-wrapper">
+                  <a href="#">подробнее</a>
+                  <a href="#">начать играть</a>
+                </div>
+              </div>
+            </div>
+            <!-- end casino item -->
+          </div>
         </div>
+      </section>
 
-      </div>
     </main>
     <!-- End Main section -->
 
@@ -239,6 +414,7 @@
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/slick-carousel/slick/slick.js"></script>
+    <script src="/bower_components/jquery-nice-select/js/jquery.nice-select.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
