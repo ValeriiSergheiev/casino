@@ -92,6 +92,14 @@
     		margin-bottom: 15px;
     	}
 
+        .slot-table {
+            margin-right: 25px;
+        }
+
+        .slot-body-right {
+            margin-left: 25px;
+        }
+
     }
 
     /* Small Devices, Tablets */
@@ -162,6 +170,26 @@
         .check-item {
             margin-left: 15px;
             margin-right: 15px;
+        }
+
+        .slot-header-video {
+            position:relative;
+            padding-bottom:56.25%;
+            padding-top:30px;
+            height:0;
+            overflow:hidden;
+            iframe, object, embed {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+            }
+        }
+
+        .slot-table {
+            margin-left: 0;
+            margin-right: 0;
         }
 
     }
