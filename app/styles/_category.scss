@@ -123,4 +123,67 @@
 		border-top: 1px solid rgba(255,255,255, .5);
 	}
 }
+
+//pagination
+.page-pagination {
+	li {
+		display: inline-block;
+		text-align: center;
+		line-height: 50px;
+		width: 50px;
+		height: 50px;
+		border: 1px solid #0c0311;
+		background: linear-gradient(#252030, #1a1621);
+		font-family: 'OpenSansBold';
+		font-size: 18px;
+		border-radius: 4px;
+		margin-right: 5px;
+		margin-bottom: 7px;
+		a {
+			display: block;
+			color: #a0a0a0;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+li.pagination-back {
+	width: auto;
+	padding: 0 15px;
+}
+
+li.pagination-next {
+	@extend li.pagination-back;
+}
+
+li.pagination-active {
+	background: linear-gradient($top-yellow, $bottom-yellow);
+	a {
+		color: #000;
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+.text-section {
+	padding: 100px 0;
+}
+
+.text-block {
+	h5 {
+		font-size: 16px;
+		font-family: 'OpenSansRegular';
+		color: #817691;
+	}
+	p {
+		font-size: 14px;
+		font-family: 'OpenSansRegular';
+		color: #342e3e;
+		line-height: 20px;
+		margin-top: 20px;
+	}
+}
 /* end category page */
