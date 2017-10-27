@@ -1,0 +1,31 @@
+/* slots page */
+.section-title-left {
+	//padding: 50px 0 10px;
+	padding: 50px 0 25px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+	.section-title {
+		float: left;
+		text-align: left;
+		h2 {
+			text-transform: none;
+		}
+	}
+	.form-select-item {
+		float: right;
+		width: 235px;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+}
+
+.slots-list-wrapper {
+	border-top: 3px solid rgba(78, 78, 78, 0.1);
+}
+
+.slots-list-items {
+	@extend .top-games-section;
+	.top-game-item {
+		margin-bottom: 35px;
+	}
+}
+/* end slots page */

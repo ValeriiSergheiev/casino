@@ -78,7 +78,7 @@
 	width: calc(165px + 8px + 2px);
 	margin-right: calc((100% - 175px * 5) / 4) ;
 	display: block;
-	&:last-child {
+	&:nth-child(5n) {
 		margin-right: 0;
 	}
 	&:hover {

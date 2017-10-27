@@ -69,8 +69,13 @@ button {
 	color: #747376;
 	.list {
 		background-color: #16121e;
+		border: 1px solid #000;
 		width: 100%;
 		z-index: 30;
+	}
+	.option:hover {
+		background: linear-gradient($top-yellow, $bottom-yellow);
+		color: #4a2411;
 	}
 }
 
