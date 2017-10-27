@@ -172,7 +172,7 @@
             margin-right: 15px;
         }
 
-        .slot-header-video {
+        .slot-header-video, .slot-video-slider-item {
             position:relative;
             padding-bottom:56.25%;
             padding-top:30px;
@@ -185,6 +185,16 @@
                 width:100%;
                 height:100%;
             }
+        }
+
+        .slick-video-prev {
+            left: 0;
+            width: 50px;
+        }
+
+        .slick-video-next {
+            right: 0;
+            width: 50px;
         }
 
         .slot-table {
