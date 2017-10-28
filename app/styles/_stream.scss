@@ -1,0 +1,132 @@
+/* stream page */
+.stream-content {
+	border-top: 3px solid rgba(78, 78, 78, 0.1);
+	padding-top: 40px;
+}
+
+.stream-item {
+	width: 221px;
+	margin-bottom: 70px;
+	h6 {
+		font-size: 14px;
+		color: #fff;
+		line-height: 18px;
+		font-family: 'OpenSansSemibold';
+		margin: 15px 0;
+	}
+	article {
+		font-size: 14px;
+		line-height: 18px;
+		font-family: 'OpenSansRegular';
+		color: #4b3b54;
+	}
+}
+
+.stream-item-video {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 221px;
+	height: 142px;
+	background-image: url('../images/srteam/stream-item.png');
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 35px 0px #402664;
+	img {
+		display: block;
+		width: 200px;
+		height: 115px;
+		border: 2px solid #fff;
+		border-radius: 4px;
+	}
+	span {
+		position: absolute;
+		top: -8px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 85px;
+		height: 35px;
+		background: linear-gradient(#1d95e8, #0c83bd);
+		border-radius: 2px;
+		border: 1px solid #5bb3f0;
+		font-size: 14px;
+		line-height: 35px;
+		font-family: 'OpenSansRegular';
+		color: #fff;
+		text-align: center;
+	}
+	a {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 55px;
+		height: 55px;
+		background-image: url('../images/play-btn.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+.schedule-title {
+	height: 85px;
+	background-color: #341b42;
+	box-shadow: inset 0px 0px 85px -5px rgba(0,0,0, .7);
+	border-bottom: 1px solid #443050;
+	h3 {
+		font-size: 24px;
+		font-family: 'OpenSansExtrabold';
+		text-align: center;
+		line-height: 85px;
+	}
+}
+
+.schedule-list {
+	background-color: rgba(0,0,0, .15);
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+	li {
+		position: relative;
+		padding: 30px 15px 15px;
+		span:first-child {
+			color: #fbb719;
+			font-size: 18px;
+			font-family: 'OpenSansBold';
+			margin-right: 15px;
+			& + span {
+				color: #e61c1c;
+				font-size: 18px;
+				font-family: 'OpenSansBold';
+			}
+		}
+		p {
+			font-family: 'OpenSansSemibold';
+			font-size: 14px;
+			line-height: 20px;
+			margin-top: 10px;
+			color: #fff;
+		}
+		&::before {
+			position: absolute;
+			content: '';
+			bottom: 1px;
+			left: 15px;
+			right: 15px;
+			height: 1px;
+			background-color: #000;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			bottom: 0px;
+			left: 15px;
+			right: 15px;
+			height: 1px;
+			background-color: #201c29;
+		}
+	}
+}
+/* end stream page */
