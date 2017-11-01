@@ -1,0 +1,108 @@
+/* registration form */
+.registration {
+	border-top: 3px solid rgba(78, 78, 78, 0.1);
+	margin-bottom: 40px;
+}
+
+.registration-form-wrapper {
+	background-image: url('../images/registration/registration-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 360px;
+	height: 462px;
+	margin-top: 35px;
+}
+
+.registration-form {
+	padding-top: 30px;
+	label {
+		display: block;
+		position: relative;
+		border-radius: 4px;
+		overflow: hidden;
+		width: 250px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		&:nth-child(1)::before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 40px;
+			z-index: 10;
+			background: #25232e url('../images/registration/login.png') no-repeat center;
+		}
+		&:nth-child(2)::before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 40px;
+			z-index: 10;
+			background: #25232e url('../images/registration/email.png') no-repeat center;
+		}
+		&:nth-child(3)::before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 40px;
+			z-index: 10;
+			background: #25232e url('../images/registration/pass.png') no-repeat center;
+		}
+		&:nth-child(4)::before {
+			position: absolute;
+			content: '';
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 40px;
+			z-index: 10;
+			background: #25232e url('../images/registration/pass.png') no-repeat center;
+		}
+	}
+	input {
+		display: block;
+		width: 250px;
+		height: 40px;
+		background-color: #16131e;
+		padding-left: 55px;
+		padding-right: 10px;
+		box-shadow: inset 0px 0px 29px 0px #000000;
+		font-size: 16px;
+		font-family: 'OpenSansRegular';
+		color: #737373;
+	}
+	button {
+		@include common-btn ($top-yellow, $bottom-yellow, none);
+		display: block;
+		width: 250px;
+		height: 55px;
+		margin: 20px auto 0;
+		color: #854b25;
+		font-size: 16px;
+		font-family: 'OpenSansSemibold';
+	}
+	h5 {
+		font-size: 13px;
+		font-family: 'OpenSansRegular';
+		text-align: center;
+		color: #555558;
+		margin-top: 25px;
+		a {
+			text-decoration: underline;
+			color: #fff;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.recaptcha {
+	margin-top: 15px;
+}
+/* end registration form */

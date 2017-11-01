@@ -34,6 +34,14 @@
     		margin: 0 auto;
     	}
 
+        .cabinet-tabs {
+            background: none;
+            padding: 0;
+            border-radius: 4px;
+            overflow: hidden;
+            height: auto;
+        }
+
     }
 
     /* Medium Devices, Desktops */
@@ -55,39 +63,39 @@
                 margin-right: calc((100% - 175px * 3) / 2);
             }
             &:nth-child(3n) {
-               margin-right: 0;
-           }
-       }
+             margin-right: 0;
+         }
+     }
 
-       .casino-full-right {
-          margin-top: 30px;
-          text-align: center;
-          & > a {
-           margin-left: auto;
-           margin-right: auto;
-       }
-   }
-
-   .casino-full-table {
-      .table {
-       tr {
-        td {
-         padding-left: 8px;
+     .casino-full-right {
+      margin-top: 30px;
+      text-align: center;
+      & > a {
+         margin-left: auto;
+         margin-right: auto;
      }
  }
+
+ .casino-full-table {
+  .table {
+     tr {
+        td {
+           padding-left: 8px;
+       }
+   }
 }
 }
 
 .casino-full-bonus-item {
   img {
-   margin-right: 20px;
-}
-h2 {
-   text-align: left;
-}
-p {
-   text-align: left;
-}
+     margin-right: 20px;
+ }
+ h2 {
+     text-align: left;
+ }
+ p {
+     text-align: left;
+ }
 }
 
 .casino-full-bonus-list {
@@ -159,7 +167,7 @@ p {
     	}
 
         .slots-list-items {
-           .top-game-item {
+         .top-game-item {
             margin-bottom: 35px !important;
         }
     }
@@ -225,6 +233,21 @@ p {
         margin-right: 0;
     }
 
+    .cabinet-tabs {
+        height: auto;
+    }
+
+    .nav-tabs > li {
+        float: none;
+        width: 100%;
+    }
+
+    .nav-tabs > li > a {
+        line-height: 1.4;
+        height: auto;
+        padding: 10px;
+    }
+
 }
 
     /* Extra Small Devices, Phones */ 
@@ -266,6 +289,19 @@ p {
 
         .zanos-item-video {
             box-shadow: none;
+        }
+
+        .registration-form-wrapper, .login-form-wrapper {
+            background: none;
+            width: auto;
+        }
+
+        .title-lg {
+            & > div {
+                h1 {
+                    font-size: 30px;
+                }
+            }
         }
 
     }

@@ -88,4 +88,9 @@ $(document).ready(function() {
 	//Nice select
 	$('.custom-select').niceSelect();
 
+	//Tabs
+	$('.cabinet-tabs li a').click(function (e) {
+  	e.preventDefault();
+  })
+
 });
